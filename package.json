@@ -1,0 +1,23 @@
+{
+  "name": "empresa",
+  "version": "1.0.0",
+  "description": "Projeto de testes regressivos do Empresa",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open",
+    "cy:dashboard": "cypress run --record --key 1234"
+  },
+  "author": "Mateus Neres",
+  "license": "MIT",
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^13.0.2",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.1.5",
+    "cypress": "^10.9.0",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-iframe": "^1.0.1",
+    "cypress-xpath": "^2.0.1",
+    "esbuild": "^0.15.10",
+    "faker": "^5.5.3",
+    "gerador-validador-cpf": "^5.0.2"
+  }
+}
